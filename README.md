@@ -6,6 +6,8 @@ The encoder of this architecture is a pretrained 50 layer CNN (ResNet 50) that t
 
 All features of the encoder are frozen (except for the last dense embedding layer) to take full advantage of the weights learned by ResNet50 for image classification. Below are captions outputted by the network on unseen images after training for one epoch.
 
+<img src="images/train.jpg" alt="drawing" width="200"/>
+
 ![alt text](https://github.com/callumcanavan/automatic-image-captioning/blob/master/images/train.png?raw=true =100x20)
 
 ![alt text](https://github.com/callumcanavan/automatic-image-captioning/blob/master/images/pizza.png?raw=true =100x20)
