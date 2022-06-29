@@ -10,11 +10,11 @@ The encoder of this architecture is a pretrained 50 layer CNN (ResNet 50) that t
 
 All features of the encoder are frozen (except for the last dense embedding layer) to take full advantage of the weights learned by ResNet50 for image classification. 
 
-I completed this project as part of the Udacity Computer Vision nanodegree which provided blank notebooks and several other functionalities. Algorithm implementations, experiments with parameters/inputs, and model/training descriptions were completed by me.
-
 [1] [Show and Tell: A Neural Image Caption Generator, Vinyals et al., 2014](https://arxiv.org/pdf/1411.4555.pdf)
 
 [2] [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention, Xu et al., 2015](https://arxiv.org/pdf/1502.03044.pdf)
+
+I completed this project as part of the Udacity Computer Vision nanodegree which provided blank notebooks and several other functionalities. Algorithm implementations, experiments with parameters/inputs, and model/training descriptions were completed by me.
 
 # Depends
 ```
